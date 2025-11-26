@@ -1,6 +1,6 @@
 package cote.leet.from2001to3000
 
-import org.example.cote.CountUnguardedCellsInTheGrid
+import org.example.cote.greed.CountUnguardedCellsInTheGrid
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

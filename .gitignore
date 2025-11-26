@@ -45,3 +45,5 @@ bin/
 .DS_Store
 
 .idea/
+**/src/main/kotlin/secret/**/**
+**/src/test/kotlin/secret/**/**

@@ -3,6 +3,8 @@ package org.example.cote.bfs
 import java.util.LinkedList
 import java.util.Queue
 
+//https://leetcode.com/problems/bus-routes/description/
+
 class BusRoutes {
     fun numBusesToDestination(routes: Array<IntArray>, source: Int, target: Int): Int {
         if (source == target) return 0
