@@ -1,4 +1,4 @@
-package org.example.cote.etc.math
+package org.example.cote.math
 
 // https://leetcode.com/problems/count-operations-to-obtain-zero
 // 유클리드 호제법

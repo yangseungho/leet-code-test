@@ -1,6 +1,6 @@
 package cote.leet.from3001to4000
 
-import org.example.cote.etc.unionfind.PowerGridMaintenance
+import org.example.cote.graph.unionfind.PowerGridMaintenance
 import org.junit.jupiter.api.Test
 import kotlin.test.assertContentEquals
 

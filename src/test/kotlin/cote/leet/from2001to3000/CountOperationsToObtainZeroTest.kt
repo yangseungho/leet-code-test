@@ -1,6 +1,6 @@
 package cote.leet.from2001to3000
 
-import org.example.cote.etc.math.CountOperationsToObtainZero
+import org.example.cote.math.CountOperationsToObtainZero
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

@@ -1,5 +1,7 @@
 package org.example.cote.binarysearch
 
+// https://leetcode.com/problems/sqrtx/
+
 class MySqrtX {
     fun mySqrt(x: Int): Int {
         if (x < 2) return x

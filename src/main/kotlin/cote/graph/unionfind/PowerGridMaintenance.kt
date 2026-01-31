@@ -1,4 +1,6 @@
-package org.example.cote.etc.unionfind
+package org.example.cote.graph.unionfind
+
+import java.util.TreeSet
 
 //https://leetcode.com/problems/power-grid-maintenance
 
@@ -35,11 +37,11 @@ class PowerGridMaintenance {
         // --------------------
         // 3) component → TreeSet (online station id set)
         // --------------------
-        val compMap = HashMap<Int, java.util.TreeSet<Int>>()
+        val compMap = HashMap<Int, TreeSet<Int>>()
 
         for (i in 1..c) {
             val root = find(i)
-            compMap.putIfAbsent(root, java.util.TreeSet())
+            compMap.putIfAbsent(root, TreeSet())
             compMap[root]!!.add(i)   // initially all online
         }
 
